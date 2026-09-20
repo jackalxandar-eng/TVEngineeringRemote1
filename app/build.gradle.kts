@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.openai.tvengineering"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.openai.tvengineering"
