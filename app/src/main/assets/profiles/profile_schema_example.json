@@ -1,0 +1,28 @@
+{
+  "id": "my-tv-profile",
+  "name": "My TV Profile",
+  "brand": "Brand",
+  "model": "Model",
+  "notes": "Use only codes verified for this exact model.",
+  "commands": [
+    {
+      "key": "POWER",
+      "label": "Power",
+      "carrierHz": 38000,
+      "protocol": "NEC",
+      "address": 0,
+      "command": 0,
+      "dangerous": false,
+      "engineering": false
+    },
+    {
+      "key": "SERVICE_EXAMPLE",
+      "label": "Service command placeholder",
+      "carrierHz": 38000,
+      "protocol": "RAW",
+      "pattern": [9000,4500,560,560],
+      "dangerous": true,
+      "engineering": true
+    }
+  ]
+}

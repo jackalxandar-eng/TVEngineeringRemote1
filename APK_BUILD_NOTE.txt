@@ -1,0 +1,18 @@
+APK BUILD OPTIONS
+=================
+
+1) GitHub Actions (no local Android Studio required)
+   - Push this project to a GitHub repository.
+   - Open Actions > Build Android APK > Run workflow.
+   - Download artifact: TV-Engineering-Remote-APK.
+
+2) Windows / Android Studio
+   - Open the project in Android Studio and allow Gradle sync.
+   - Run BUILD_APK_WINDOWS.bat, or use Build > Build APK(s).
+   - Output: app/build/outputs/apk/debug/app-debug.apk
+
+3) Linux/macOS
+   - Ensure Android SDK/JDK are installed.
+   - Run ./BUILD_APK_LINUX.sh
+
+The Debug APK is automatically signed with the Android debug key by the Android Gradle Plugin.

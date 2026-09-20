@@ -1,0 +1,25 @@
+TV Engineering Remote project manifest
+Generated: 2026-09-20
+
+PROJECT_MANIFEST.txt
+README.md
+app/build.gradle.kts
+app/proguard-rules.pro
+app/src/main/AndroidManifest.xml
+app/src/main/assets/profiles/profile_schema_example.json
+app/src/main/java/com/openai/tvengineering/MainActivity.kt
+app/src/main/java/com/openai/tvengineering/core/IrProtocols.kt
+app/src/main/java/com/openai/tvengineering/core/IrTransmitter.kt
+app/src/main/java/com/openai/tvengineering/data/Models.kt
+app/src/main/java/com/openai/tvengineering/data/ProfileRepository.kt
+app/src/main/java/com/openai/tvengineering/ui/TvEngineerApp.kt
+app/src/main/java/com/openai/tvengineering/ui/TvRemoteViewModel.kt
+app/src/main/res/values/strings.xml
+app/src/main/res/values/themes.xml
+app/src/test/java/com/openai/tvengineering/core/IrProtocolsTest.kt
+build.gradle.kts
+gradle.properties
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
+settings.gradle.kts
